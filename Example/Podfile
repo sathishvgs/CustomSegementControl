@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomSegmentControl_Example' do
+  pod 'CustomSegmentControl', :path => '../'
+
+  target 'CustomSegmentControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
