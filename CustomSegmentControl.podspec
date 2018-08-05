@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomSegmentControl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'CustomSegmentControl is a simple library which helps you to create the customized segment control.'
   s.homepage         = 'https://github.com/sathishvgs/CustomSegmentControl'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
