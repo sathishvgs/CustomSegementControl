@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		090F3DDE7C156FAF77FFC6B8 /* Pods_CustomSegmentControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSegmentControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DBB0AC98305BCCDA52091C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0DBB0AC98305BCCDA52091C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		170C585DF985DFFAC5E9CAFB /* Pods-CustomSegmentControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSegmentControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSegmentControl_Example/Pods-CustomSegmentControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		58351213836E8F68FF4287C3 /* Pods-CustomSegmentControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSegmentControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSegmentControl_Tests/Pods-CustomSegmentControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CustomSegmentControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegmentControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6597F8FB14F700A9EDA9F60E /* Pods_CustomSegmentControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSegmentControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2DEF3D3CA2EE993F0F5F1A /* Pods-CustomSegmentControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSegmentControl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSegmentControl_Tests/Pods-CustomSegmentControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9ACD33AC53BB83C31924F332 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9ACD33AC53BB83C31924F332 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E984F8B3C14969B038AC13E6 /* Pods-CustomSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSegmentControl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSegmentControl_Example/Pods-CustomSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EDD85AD2FC9EA848E80A7269 /* CustomSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomSegmentControl.podspec; path = ../CustomSegmentControl.podspec; sourceTree = "<group>"; };
+		EDD85AD2FC9EA848E80A7269 /* CustomSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomSegmentControl.podspec; path = ../CustomSegmentControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
