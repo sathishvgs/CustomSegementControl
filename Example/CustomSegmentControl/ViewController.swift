@@ -7,18 +7,28 @@
 //
 
 import UIKit
+import CustomSegmentControl
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CallBackOnTapOfButton {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let customSegmented = CustomSegmented(frame: CGRect(x: 0, y: 50, width: self.view.frame.width, height: 50), buttonTitles: ["On", "Off", "Neutral", "Custom"])
+        
+        customSegmented.onsegmentTapped = self
+        customSegmented.configViews()
+        view.addSubview(customSegmented)
     }
-
+    
+    func didSegmentButtonTapped(ofIndex index: Int) {
+        print("Index of Segment tapped \(index)")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 
