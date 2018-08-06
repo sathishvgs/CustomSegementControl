@@ -17,11 +17,12 @@ public class CustomSegmented: UIView {
     
     weak public var onsegmentTapped: CallBackOnTapOfButton?
     
-    public convenience init(frame: CGRect, buttonTitles: [String], selectorColor: UIColor = .red, textColor: UIColor = .black) {
+    public convenience init(frame: CGRect, buttonTitles: [String], selectorColor: UIColor = .red, textColor: UIColor = .black, segmentBackgroundColor: UIColor = .white) {
         self.init(frame: frame)
         self.buttonTitles = buttonTitles
         self.selectorColor = selectorColor
         self.textColor = textColor
+        self.backgroundColor = segmentBackgroundColor
     }
 }
 
@@ -81,6 +82,7 @@ extension CustomSegmented {
             button.addTarget(self, action: #selector(onTapSegmentAction(sender:)), for: .touchUpInside)
             print("INDEX for button tag is \(index)")
             button.tag = index
+            button.backgroundColor = .clear
             self.buttons.append(button)
         }
         self.buttons[0].setTitleColor(selectorColor, for: .normal)
