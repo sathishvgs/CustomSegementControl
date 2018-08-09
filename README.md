@@ -17,7 +17,8 @@ This Pod requires the deployment target of iOS 9.0 or greater. Supports Swift 4
 
 ```
   let customSegmented = CustomSegmented(frame: CGRect(x: 0, y: 50, width: self.view.frame.width, height: 50), buttonTitles: ["On", "Off", "Neutral", "Custom"])
-        
+
+  // Plz maintain the order, otherwise swipe will not work by chance
   view.addSubview(customSegmented)
   customSegmented.onsegmentTapped = self
   customSegmented.configViews()
