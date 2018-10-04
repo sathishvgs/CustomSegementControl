@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![fullmaterial](CustomSegGIF.gif)
+
 ## Requirements
 
 This Pod requires the deployment target of iOS 9.0 or greater. Supports Swift 4
